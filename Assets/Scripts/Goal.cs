@@ -17,6 +17,8 @@ public class Goal : MonoBehaviour
             }
 
             GameManager.instance.RestartLevel(0.5f);
+            var timer = FindObjectOfType<Timer>();
+            GameManager.instance.SaveTime(timer.time);
         }
     }
     // Start is called before the first frame update
