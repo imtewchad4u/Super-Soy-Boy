@@ -6746,7 +6746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf6826bb94cb4a24b94d94f11b20ba32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: Chad's Great Level
+  levelName: Poptart
 --- !u!1001 &932736714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12675,6 +12675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: 
+  buttonPrefab: {fileID: 0}
 --- !u!4 &1781216109
 Transform:
   m_ObjectHideFlags: 0
